@@ -13,7 +13,7 @@ fn main() {
     let repeated_frequency = 'outer: loop {
         for change in changes.iter() {
             current_frequency += change;
-            if !frequencies.contains(&current_frequency) {
+            if frequencies.contains(&current_frequency) {
                 break 'outer current_frequency;
             }
             frequencies.insert(current_frequency);
