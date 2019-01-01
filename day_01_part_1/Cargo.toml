@@ -1,5 +1,5 @@
 [package]
-name = "chronal_calibration"
+name = "day_01_part_1"
 version = "0.1.0"
 authors = ["Nathan Bierema <nbierema@gmail.com>"]
 edition = "2018"
